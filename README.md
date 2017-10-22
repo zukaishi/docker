@@ -1,7 +1,8 @@
 # docker
 
 ```コンソール
-docker run -d -p 80:80 -v /Users/Apple/docker/php70-apache/www:/var/www/html --name php70-apache php:7.0-apache
+docker run -d -p 80:80 -v /Users/Apple/docker/php70-apache/www:/var/www/html <br>
+--name php70-apache php:7.0-apache
 ```
 <br>
 localhost:8080 で、サーバ起動 <br>
